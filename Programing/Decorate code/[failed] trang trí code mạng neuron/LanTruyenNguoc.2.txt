@@ -1,0 +1,72 @@
+
+// định nghĩa
+net1.layer(1).a = input
+
+// for l in [2; L]
+net1.layer(l).z = net1.layer(l).w.transpose() * net1.layer(l-1).a + net1.layer(l).b
+
+net1.layer(l).a = net1.layer(l).activateFunction().inputZ(net1.layer(l).z).excute();
+
+// tính 
+C = lỗi tính từ output so với nhãn
+
+
+net1.layer(L).error.neuron(j) = 
+    partialDevirative.xVar(net1.layer(L).a.neuron(j)).yVar(C)
+    ⊙
+    net1.layer(L).activateFunction().inputZ(net1.layer(L).z.neuron(j)).excute()
+
+// bản tương tự
+net1.layer(L).error =
+    gradient.listXVar(net1.layer(L).a.listNeuron()).yVar(C)
+    ⊙
+    net1.layer(L).activateFunction().inputZ(net1.layer(L).z)
+
+
+// for l in [L-1 , 2]
+net1.layer(l).error = 
+    (
+        net1.layer(l+1).w.transpose() * net1.layer(l+1).error
+    )
+    ⊙
+    net1.layer(l).activateFunction().inputZ(net1.layer(l).z)
+
+// hệ số gradient để cập nhật
+learningRate = η ;
+
+// tính gradient w[j][k]
+// for l : [2, L]
+
+    nowLayer = net1.layer(l);
+    previousLayer = net1.layer(l-1)
+
+    // for j : [1, nowLayer.a.size()]
+
+        nowNeuron = nowLayer.neuron(j)
+        listNeuronWhichConnected_nowNeuron = nowNeuron.getAllNeuronConnected();
+
+        // for k : [1, listNeuronWhichConnected_nowNeuron.size() ]
+            
+            nowLayer.w.neuronAtPreviousLayer(k).neuronAtThisLayer(j).gradientForUpdate.getValue() =
+                previousLayer.a.neuron(k)
+                *
+                nowLayer.error.neuron(j)
+        #
+    #
+#
+
+
+// tính gradient b[j]
+// for l : [2, L]
+    nowLayer = net1.layer(l);
+
+    // for j : [1, nowLayer.a.size()]
+
+        nowLayer.b.neuronAtThisLayer(j).gradientForUpdate.getValue() =
+            nowLayer.error.neuron(j)
+    #
+#
+
+
+
+

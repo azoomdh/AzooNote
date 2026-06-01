@@ -22,7 +22,7 @@ băng đảng + chính quyền = 2 phần
 
 * băng đảng = 4 phần
 
-*  chính quyền = 6 phần
+* chính quyền = 6 phần
 
 khi chính quyền đủ tiền thì ép đám băng đảng chuyển nghề làm doanh nghiệp
 
