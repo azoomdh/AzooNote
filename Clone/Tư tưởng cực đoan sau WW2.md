@@ -17,6 +17,7 @@ Sau ww2 :
   * tư tưởng CS
   
   * tư tưởng đại bàng (đảng voi- đảng lừa)
+    * https://www.google.com/search?q=To+what+extent+are+the+policies+of+the+Democratic+and+Republican+parties+similar%3F&
 
 <br/>
 
