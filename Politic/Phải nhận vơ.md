@@ -42,7 +42,7 @@ hành vi:
 
 ai cho nhà ngươi nói sự thật :/
 
-có nhận thì nhận mẫu quốc cho sang :|
+có nhận thì nhận mẫu quốc cho ngầu :|
 
 <br/>
 
