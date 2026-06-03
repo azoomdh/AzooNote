@@ -13,9 +13,34 @@ cout<< *pointer1 << endl;
 ```cpp
 int x =10;
 
-pointerType(int) pointer1;
+PointerType(int) pointer1;
 
-pointer1 = pointerAddress(x)
+pointer1 = PointerAddress(x)
 
-cout<< pointerValue(pointer1) << endl;
+cout<< PointerValue(pointer1) << endl; 
+```
+
+<br/>
+
+nhờ GPT
+
+```cpp
+#define PointerType(T)    T*
+#define PointerAddress(x) (&(x))
+#define PointerValue(x)   (*(x))
+#define PointerNull(T)    ((T*)0)
+```
+
+<br/>
+
+ví dụ
+
+```cpp
+PointerType(PointerType(int)) pointer1;
+
+PointerValue(PointerValue(pointer1)) = 50;
+
+int a= 60;
+pointer1 = &&a;
+// trông xấu, chỉ dùng được với pointer 1 cấp
 ```
