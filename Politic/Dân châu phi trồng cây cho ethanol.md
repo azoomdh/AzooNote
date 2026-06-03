@@ -27,3 +27,11 @@ băng đảng + chính quyền = 2 phần
 khi chính quyền đủ tiền thì ép đám băng đảng chuyển nghề làm doanh nghiệp
 
 
+
+
+
+// dân không trồng bằng tay = farm lớn
+
+tiền tập trung = Nam Phi
+
+
