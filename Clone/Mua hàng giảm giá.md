@@ -33,5 +33,3 @@ mua cái trên = mua hàng giảm giá
 <br/>
 
 dùng riêng `tiền vay ngân hàng` so với `tiền túi`
-
-> 
