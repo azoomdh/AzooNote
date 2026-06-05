@@ -33,3 +33,5 @@ mua cái trên = mua hàng giảm giá
 <br/>
 
 dùng riêng `tiền vay ngân hàng` so với `tiền túi`
+
+> google/gpt : dùng 2 phương thức đầu tư chứng khoán cùng lúc gọi là gì
