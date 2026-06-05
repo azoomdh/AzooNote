@@ -45,13 +45,16 @@ dùng riêng `tiền vay ngân hàng` so với `tiền túi`
 <br/>
 
 > google : black rock liên tục mua cổ phiếu lúc suy thoái
-> 
+
 > google : Buffet thu mua cổ phiếu lúc suy thoái
-> 
-> google : black rock liên tục mua SP 500 và bắt buộc thao túng kinh tế
+
+> video fb reel : black rock liên tục mua SP 500 và bắt buộc bản thân thao túng kinh tế 
+> (không phải bằng mua lần lượt, mà là mua song song)
 
 -> học theo
 
 mục đích = ăn tiền lãi từ sp500, không biết nên cắt bao nhiêu % vàng cho việc tiêu
 
 <br/>
+
+# 
