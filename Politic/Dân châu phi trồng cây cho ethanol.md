@@ -26,12 +26,16 @@ băng đảng + chính quyền = 2 phần
 
 khi chính quyền đủ tiền thì ép đám băng đảng chuyển nghề làm doanh nghiệp
 
-
-
-
-
 // dân không trồng bằng tay = farm lớn
 
 tiền tập trung = Nam Phi
 
+<br/>
 
+// lặp lại
+
+đổi đất trồng mía lấy nhà máy chế biến ethanol
+
+
+
+đổi mỏ khoáng sản lấy nhà máy chế biến khoáng sản
