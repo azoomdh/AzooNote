@@ -35,3 +35,23 @@ mua cái trên = mua hàng giảm giá
 dùng riêng `tiền vay ngân hàng` so với `tiền túi`
 
 > google/gpt : dùng 2 phương thức đầu tư chứng khoán cùng lúc gọi là gì
+
+<br/>
+
+> Fen Làm chưa. Làm rồi nói mới có trọng lượng
+> 
+> https://voz.vn/t/ai-dang-om-chung-cu-ha-noi.1247376/post-42361598
+
+<br/>
+
+> google : black rock liên tục mua cổ phiếu lúc suy thoái
+> 
+> google : Buffet thu mua cổ phiếu lúc suy thoái
+> 
+> google : black rock liên tục mua SP 500 và bắt buộc thao túng kinh tế
+
+-> học theo
+
+mục đích = ăn tiền lãi từ sp500, không biết nên cắt bao nhiêu % vàng cho việc tiêu
+
+<br/>
