@@ -43,4 +43,6 @@ PointerValue(PointerValue(pointer1)) = 50;
 int a= 60;
 pointer1 = &&a;
 // trông xấu, chỉ dùng được với pointer 1 cấp
+
+// C không có class = không dùng pointer1.pointerValue().pointerValue();
 ```
