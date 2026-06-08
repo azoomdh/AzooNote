@@ -16,7 +16,7 @@ công nhiều ăn nhiều
 
 <br/>
 
-(miễn không làm dân mất mạng, công ty khác phá sản thì không sao)
+(dân không mất mạng, không có công ty phá sản; thì không sao)
 
 <br/>
 
