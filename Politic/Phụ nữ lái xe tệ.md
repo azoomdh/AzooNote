@@ -6,9 +6,4 @@ phụ nữ khó phân biệt trái phải
 
 đặt "phanh chính" cạnh hộp số/ cạnh phanh tay
 
-đặt khóa chân phanh
-
-<details>
-    <summary>khóa chân phanh</summary>
-    <img src="https://bizweb.dktcdn.net/100/268/564/products/h4-f570669d-187f-429c-b83e-5ba83771e91b.jpg?v=1683686606063" />
-</details>
+đặt khóa chân phanh [image](https://bizweb.dktcdn.net/100/268/564/products/h4-f570669d-187f-429c-b83e-5ba83771e91b.jpg?v=1683686606063)

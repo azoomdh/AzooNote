@@ -20,7 +20,7 @@ manga/comic nổi tiếng = đều do các vua làm
 
 * vua của Vn = Manga nấu ăn, Chainsaw man, Wonder Woman, Berserk, Ô Long viện
 
-* vua của Germany = Manga thể thao, MHA, Atack on Titan, Gintama, OPM, Slime, Hardcore Leveling Warrior, Solo Leveling
+* vua của Germany = Manga thể thao, MHA, Atack on Titan, Gintama, OPM, Slime, Hardcore Leveling Warrior, Solo Leveling, Green Lantern
 
 * 2 vua của Japan = Black Clover, Manga Yarkura, Gachiakuta
 
