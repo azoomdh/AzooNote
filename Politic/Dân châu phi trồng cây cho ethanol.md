@@ -36,6 +36,8 @@ tiền tập trung = Nam Phi
 
 đổi đất trồng mía lấy nhà máy chế biến ethanol
 
-
-
 đổi mỏ khoáng sản lấy nhà máy chế biến khoáng sản
+
+<br/>
+
+đổi mỏ khoáng sản lấy dịch vụ bảo kê khoáng sản
