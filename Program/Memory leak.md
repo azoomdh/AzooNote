@@ -42,35 +42,31 @@ d = NULL;
 code
 
 ```c
-// đây là thư viện
-
-// các hàm free bên trên
-
-// free_struct ...
-
-void set (T* struct1, T* struct2) {
+void safe_set (T* struct1, T* struct2) {
     free_struct(struct1);
     struct1 = struct2;
 }
 ```
 
 ```c
-sEmployee *e = malloc(sizeof(Employee));
-Department *d = malloc(sizeof(Department));
+sEmployee *e 
+	buf __attribute__((cleanup(free_struct)))
+	= malloc(sizeof(Employee));
+
+Department *d  
+	buf __attribute__((cleanup(free_struct)))
+	= malloc(sizeof(Department));
 
 e->dept = d;
 d->manager = e;
 
-set(e, nullptr);
-set(d, nullptr);
+safe_set(e, nullptr);
+safe_set(d, nullptr);
 ```
-
-tương tự
 
 ```c
 // GPT
-
-#define set(t1, t2) \
+#define safe_set(t1, t2) \
     do {            \
         free(t1);   \
         (t1) = (t2);\
@@ -92,11 +88,15 @@ while(true){
     // xóa rồi pushBack
     safe_PushBack(listLog, listLog_Temp);
     
+    // push back thường
+    notSafe_pushback(listLog, log1)
+    
     // xử lý ...
 }
 ```
 
 ## leak thư viện thứ 3
+(không làm được)
 
 ## đóng file, socket, mutex, connect-to-db, gpu-mem
 
@@ -114,8 +114,33 @@ void free_ptr(void *p) {
 //# void free_collection...
 
 //# void free_resource ... (??? nếu có thể phân biệt tài nguyên)
+
+//# freeContext_unRegisterCallback ...
+
+//# free_thread
+
+//# free_struct
 ```
 
 ## leak bởi call back
+code
+```c
+void foo() {
+    Context* ctx = malloc(sizeof(Context));
+
+    register_callback(on_event, ctx);
+
+    // quên:
+    // unregister_callback(...)
+    // free(ctx)
+}
+```
+
+```c
+ Context* ctx 
+ 	buf __attribute__((cleanup(freeContext_unRegisterCallback)))
+ 	= malloc(sizeof(Context));
+```
 
 ## leak do không tắt thread
+dòng có chữ `free_thread`
