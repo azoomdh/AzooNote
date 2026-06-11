@@ -14,6 +14,8 @@ Ukr gửi vàng tại Ru (như Ger gửi vàng tại Us)
 
 Ukr gửi tiền tại Ru
 
+Tháo nhà máy Ukr chuyển sang Ru
+
 <br/>
 
 giả vờ, sau 10 năm, Ru ngừng chiếm thêm đất vì tốn tiền quá mức 

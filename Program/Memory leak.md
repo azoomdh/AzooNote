@@ -50,12 +50,12 @@ void safe_set (T* struct1, T* struct2) {
 
 ```c
 sEmployee *e 
-	buf __attribute__((cleanup(free_struct)))
-	= malloc(sizeof(Employee));
+    buf __attribute__((cleanup(free_struct)))
+    = malloc(sizeof(Employee));
 
 Department *d  
-	buf __attribute__((cleanup(free_struct)))
-	= malloc(sizeof(Department));
+    buf __attribute__((cleanup(free_struct)))
+    = malloc(sizeof(Department));
 
 e->dept = d;
 d->manager = e;
@@ -83,19 +83,20 @@ chèn dữ liệu ở "vòng lặp mới" :
 auto listLog;
 
 while(true){
-	auto listLog_Temp = ...
-    
+    auto listLog_Temp = ...
+
     // xóa rồi pushBack
     safe_PushBack(listLog, listLog_Temp);
-    
+
     // push back thường
     notSafe_pushback(listLog, log1)
-    
+
     // xử lý ...
 }
 ```
 
 ## leak thư viện thứ 3
+
 (không làm được)
 
 ## đóng file, socket, mutex, connect-to-db, gpu-mem
@@ -123,7 +124,9 @@ void free_ptr(void *p) {
 ```
 
 ## leak bởi call back
+
 code
+
 ```c
 void foo() {
     Context* ctx = malloc(sizeof(Context));
@@ -138,9 +141,10 @@ void foo() {
 
 ```c
  Context* ctx 
- 	buf __attribute__((cleanup(freeContext_unRegisterCallback)))
- 	= malloc(sizeof(Context));
+     buf __attribute__((cleanup(freeContext_unRegisterCallback)))
+     = malloc(sizeof(Context));
 ```
 
 ## leak do không tắt thread
+
 dòng có chữ `free_thread`
